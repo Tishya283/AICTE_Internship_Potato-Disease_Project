@@ -1,54 +1,51 @@
-Potato Leaf Disease Detection Using Computer Vision and Machine Learning
+**Potato Leaf Disease Detection Using Computer Vision and Machine Learning**
 
-Overview
-This project aims to assist farmers by automating the detection of potato plant diseases through image analysis. Utilizing computer vision and machine learning techniques, the system classifies diseases like Early Blight and Late Blight based on visual patterns observed in potato leaf images. Early identification enables timely intervention, minimizing crop damage and maximizing yield.
+---
 
-Highlights
+### **Overview**
 
-Automated diagnosis of potato leaf diseases using image input
+This project helps farmers detect diseases in potato plants using image recognition. By applying computer vision and machine learning, it classifies leaf diseases like **Early Blight** and **Late Blight**, allowing for faster response and improved crop protection.
 
-Focus on common diseases such as Early Blight and Late Blight
+---
 
-Robust image preprocessing including normalization and enhancement
 
-Deep learning model (CNN) trained on real-world agricultural datasets
+### **Purpose**
 
-User-friendly web interface for instant disease prediction
+To empower farmers with a simple tool that diagnoses leaf diseases by uploading an image, reducing dependence on experts and enabling faster crop-saving decisions.
 
-Tech Stack
+---
 
-Programming Language: Python
+### **Key Features**
 
-Machine Learning: Convolutional Neural Networks (CNN)
+* Image-based detection of potato leaf diseases
+* Classifies common diseases: Early Blight, Late Blight
+* Image preprocessing for normalization and clarity
+* Deep learning (CNN) model trained on real-world images
+* Simple web interface for uploading images and getting results
 
-Libraries & Tools: TensorFlow/Keras, OpenCV, NumPy, Matplotlib
+---
 
-Deployment Platform: Streamlit (or other, depending on usage)
+### **Technologies Used**
 
-Dataset: A mix of healthy and infected potato leaf images from public/custom sources
+* **Language:** Python
+* **Machine Learning:** Convolutional Neural Networks (CNN)
+* **Libraries/Tools:** TensorFlow, Keras, OpenCV, NumPy, Matplotlib
+* **Deployment:** Streamlit (or your platform)
+* **Dataset:** Images of healthy and diseased potato leaves (public or custom)
 
-Objective
-The core goal is to develop an easy-to-use diagnostic platform that allows farmers to upload photos of potato leaves and receive real-time disease predictions—empowering them to take timely action without depending solely on agricultural experts.
+---
 
-Workflow
+### **Project Workflow**
 
-Data Acquisition: Gather images of both healthy and diseased potato leaves
+1. **Data Collection:** Gather images of healthy and diseased leaves
+2. **Preprocessing:** Resize, normalize, and augment the images
+3. **Model Training:** Build and train a CNN-based classifier
+4. **Evaluation:** Use accuracy, precision, and confusion matrix to assess the model
+5. **Deployment:** Provide an easy interface for real-time predictions
 
-Preprocessing: Resize images, normalize pixels, and apply data augmentation
+---
 
-Model Development: Train a CNN-based classification model
 
-Evaluation: Use metrics like accuracy, precision, and a confusion matrix to assess performance
 
-Deployment: Integrate the model into a web-based platform for practical use
 
-Future Scope
-
-Expand detection to include multiple crops and a broader range of diseases
-
-Develop a mobile application for field-level diagnosis
-
-Enable real-time predictions via camera integration
-
-Add multilingual support to improve usability among diverse farmer communities
 
